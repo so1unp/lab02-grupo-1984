@@ -1,5 +1,5 @@
-#include <stdlib.h>
-#include <stdio.h>
+#include <stdio.h>      // printf()
+#include <stdlib.h>     // exit()
 
 int main(int argc, char *argv[])
 {
@@ -7,5 +7,6 @@ int main(int argc, char *argv[])
         printf("hola %s\n", argv[1]);
     }
 
+    // Termina la ejecución del proceso.
     exit(EXIT_SUCCESS);
 }
